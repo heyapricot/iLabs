@@ -1,6 +1,12 @@
 /* START OF COVER */
 
+body {
+  font-family: Montserrat, sans-serif;
+}
 
+.text-block-title {
+  font-weight: 900;
+}
 
 
 
