@@ -41,3 +41,24 @@
 
 
 /* END OF TILES */
+
+
+/* START OF FOOTER */
+footer {
+  background-color: #d3d3d336;
+}
+
+footer p {
+  font-size: 75%;
+  display: inline;
+}
+
+#address {
+  color: #004085b8;
+  list-style: none;
+}
+/* END OF FOOTER */
+
+.row {
+  margin: 0;
+}
