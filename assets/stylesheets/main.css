@@ -53,7 +53,9 @@ body {
 /* START OF SLIDE */
 
 
-
+.slide .row:first-of-type{
+    min-height: 400px;
+}
 
 
 /* END OF SLIDE */
