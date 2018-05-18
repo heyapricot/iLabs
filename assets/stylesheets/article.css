@@ -3,3 +3,8 @@
     background-image: url("../images/namphuong-van-20566-unsplash.jpg");
     background-size: cover;
 }
+
+.left-article-text {
+    font-size: 0.8rem;
+    font-weight: 900;
+}
