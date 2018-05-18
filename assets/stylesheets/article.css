@@ -16,3 +16,12 @@
     font-size: 0.8rem;
     font-weight: 900;
 }
+
+.right-article {
+    position: relative;
+    right: 7.5%;
+}
+
+.right-article-text {
+    background-color: white;
+}
