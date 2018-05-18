@@ -32,10 +32,18 @@ body {
 
 
 /* START OF WORK */
+.number, .hover, .list div h5 {
+  font-weight: 900;
+}
 
+.number{
+  color: lightgray;
+  font-size: 3.5rem;
+}
 
-
-
+.hover {
+  color: gray;
+}
 
 /* END OF WORK */
 
