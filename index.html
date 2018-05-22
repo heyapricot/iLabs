@@ -157,7 +157,7 @@
     </section>
 
     <section>
-      <div class="row justify-content-center align-items-center" id="tiles">
+      <div class="row justify-content-center align-items-center pb-5" id="tiles">
         <div class="col-md-12">
           <div class="row justify-content-center align-items-center" id="tile-row">
             <div class="col-md-2 p-2 m-2">
@@ -176,7 +176,8 @@
               <img src="assets/images/wind.png" class="img-fluid" alt="Responsive image">
             </div>
           </div>
-          <div class="row justify-content-center align-items-center" id="tile-row">
+
+          <div class="row row-eq-height justify-content-center align-items-center" id="tile-row">
             <div class="col-md-2 p-2 m-2" id="tile">
               <img src="assets/images/globe.png" class="img-fluid" alt="Responsive image">
             </div>
@@ -193,12 +194,33 @@
               <p>Want to create great things together and be friends?</p>
             </div>
           </div>
-          <div class="row justify-content-center align-items-center" id="form-row">
-            <div class="col-md-2">
-
+          <div class="row justify-content-center align-items-center py-5" id="form-row">
+            <div class="col-md-2 text-white">
+              <h5>Say hello</h5>
             </div>
-            <div class="col-md-8">
-
+            <div class="col-md-9">
+              <form>
+                <div class="form-group d-inline">
+                  <p>My name is </p>
+                  <input class="name" action="index.html" method="post"></input>
+                  <p>. My email address </p>
+                  <input class="email" action="index.html" method="post"></input>
+                  <p> and phone number </p>
+                  <input class="email" action="index.html" method="post"></input>
+                  <br>
+                  <p>I want to work with iLabs on </p>
+                  <select class="custom-select" id="inputGroupSelect03">
+                    <option selected>Choose...</option>
+                    <option value="1">Application</option>
+                    <option value="2">Rebranding</option>
+                    <option value="3">Startup</option>
+                  </select>
+                  <p> project.</p>
+                </div>
+                <div class="form-group text-right">
+                  <button type="submit" id="submit">SEND</button>
+                </div>
+              </form>
             </div>
           </div>
         </div>

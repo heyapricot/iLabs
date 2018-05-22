@@ -87,18 +87,46 @@ body {
 #back_shape {
   background-color: #334a63;
   height: 80vh;
-  -webkit-clip-path: polygon(100% 10%, 0% 100%, 100% 100%);
-  clip-path: polygon(100% 10%, 0% 100%, 100% 100%);
+  -webkit-clip-path: polygon(100% 10%, -75% 100%, 100% 100%);
+  clip-path: polygon(100% 10%, -75% 100%, 100% 100%);
 }
 
 #tile {
-  background: #f8f9fafa;
+  background-color: #f8f9fafa;
   max-width: 100%;
-  height: 100%;
-  font-size: 80%;
-  font-family: Quiksand, Montserrat, sans-serif;
+  box-sizing: border-box;
 }
 
+#tiles p {
+  display: inline;
+  color: darkgray;
+  font-family: Quiksand, Montserrat, sans-serif;
+  font-size: 70%;
+  line-height: 2rem;
+}
+
+#tiles input {
+  width: 7rem;
+  color: darkgray;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: darkgray;
+  background: none;
+}
+
+#inputGroupSelect03 {
+  width: 7rem;
+  font-size: 70%;
+  background-color: #f8f9fafa;
+}
+
+#submit {
+  background: linear-gradient(to bottom right, orange, yellow);
+  width: 7rem;
+  color: white;
+  border: none;
+}
 
 /* END OF TILES */
 
