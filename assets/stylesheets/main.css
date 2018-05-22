@@ -17,7 +17,24 @@ body {
 /* End of globals */
 
 /* START OF COVER */
+nav h5, nav a, nav a:hover {
+  font-family: quicksand, montserrat, sans-serif;
+  color: gray;
+  display: inline;
+  margin-bottom: 0;
+  font-size: 0.8rem;
+}
 
+nav button {
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.navbar-toggler {
+    padding: 0;
+    font-size: 1rem;
+    border: none;
+}
 
 /* END OF COVER */
 
@@ -102,7 +119,6 @@ body {
   color: darkgray;
   font-family: Quiksand, Montserrat, sans-serif;
   font-size: 70%;
-  line-height: 2rem;
 }
 
 #tiles input {
@@ -116,9 +132,11 @@ body {
 }
 
 #inputGroupSelect03 {
+  border-radius: 0;
   width: 7rem;
+  height: 2rem;
   font-size: 70%;
-  background-color: #f8f9fafa;
+  background-color: darkgray;
 }
 
 #submit {
